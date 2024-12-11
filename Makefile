@@ -55,8 +55,9 @@ clean:
 		results/abyss.dat \
 		results/last.dat \
 		results/sierra.dat
-	rm -f results/isles.png \
-		results/abyss.png \
-		results/last.png \
-		results/sierra.png
+	rm -f results/figure/isles.png \
+		results/figure/abyss.png \
+		results/figure/last.png \
+		results/figure/sierra.png
 	rm -rf report/count_report.html
+	rm -rf report/count_report_files
