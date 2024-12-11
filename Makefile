@@ -1,4 +1,4 @@
-all : report/count_report.html docs/index.html
+all : report/count_report.html
 
 # count the words
 results/isles.dat : scripts/wordcount.py data/isles.txt
@@ -61,4 +61,3 @@ clean:
 		results/figure/sierra.png
 	rm -rf report/count_report.html
 	rm -rf report/count_report_files
-	rm -rf docs/*
